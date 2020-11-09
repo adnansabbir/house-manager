@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node Server.js",
+    "start": "ng serve --host house-manager.com --port 4200",
+    "heroku-start": "node Server.js",
+    "start:dev": "ng serve --host house-manager.com --port 4200",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
