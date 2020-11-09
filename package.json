@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "sg serve",
+    "start": "node Server.js",
     "start:prod": "node Server.js",
     "build": "ng build",
     "test": "ng test",
